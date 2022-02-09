@@ -1,19 +1,4 @@
-
-# Virtual assitant for shell command
-
-## Description
-This project is an virtual assistant for shell commands. Basic commands like change directory, list directory, moving and renaming folders can be run using speech like alexa. 
-
-## Requirements
-
-To use all of the functionality of the library, you should have:
-- Python : The first software requirement is Python 2.6, 2.7, or Python 3.3+. This is required to use the library.
-- PyAudio 0.2.11+ (required only if you need to use microphone input, Microphone)
-- pyttsx3 module 
-- speech_recognition module 
-- touch module 
-
-# virtual assitant
+# virtual assistant
 
 ## Description
 This project is a virtual assistant for shell commands. Basic commands like change directory, list directory, moving and renaming folders can be run using speech like alexa. 
@@ -45,7 +30,7 @@ At the end of the file, add the line below
 - alias OKLINUX="python3 ~/virtual_assistant/main.py"
 - source ~/.bashrc
 
-The installation is complete and the assistant can be tested by using the following command :  
+The installation is complete and the assistant can be tested by using the following command : 
 
 - OKLINUX
 
@@ -53,19 +38,23 @@ The installation is complete and the assistant can be tested by using the follow
 ## Commands
 ### command - trigger word 
 
-- **pwd** - print current directory  
-- **ls -l** - list  
-- **dir** - available directories   
-- **cd 'directory name'**- change directory  
-- **mkdir** - make directory  
-- **touch** - create file   
-- **rm** - remove file   
-- **rmdir** - remove directory   
-- **cp** - copy   
+- **pwd** - print current directory 
+- **ls -l** - list 
+- **dir** - available directories 
+- **cd 'directory name'**- change directory 
+- **mkdir** - make directory 
+- **touch** - create file 
+- **rm** - remove file 
+- **rmdir** - remove directory 
+- **cp** - copy 
 - **mv** - move 
-- **sudo apt update** - update   
+- **sudo apt update** - update 
 - **cd** - go to home directory 
+- **executable** - makes file executable
+- **locate** - gives the location of a file
+- **open google** - opens google
 
-## Testing 
+
+ 
 
 
