@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Virtual assitant for shell command
 
 ## Description
@@ -12,7 +12,7 @@ To use all of the functionality of the library, you should have:
 - pyttsx3 module 
 - speech_recognition module 
 - touch module 
-=======
+
 # virtual assitant
 
 ## Description
@@ -48,7 +48,7 @@ At the end of the file, add the line below
 The installation is complete and the assistant can be tested by using the following command :  
 
 - OKLINUX
->>>>>>> 6d834e3aab0e7434cd214916e81d306680655991
+
 
 ## Commands
 ### command - trigger word 
@@ -67,8 +67,5 @@ The installation is complete and the assistant can be tested by using the follow
 - **cd** - go to home directory 
 
 ## Testing 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 6d834e3aab0e7434cd214916e81d306680655991
