@@ -7,7 +7,7 @@ import touch
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[10].id)
+engine.setProperty('voice', voices[10].id) 
 
 
 def speak(audio):
@@ -222,5 +222,22 @@ if __name__ == "__main__":
             shell = os.environ.get('SHELL', '/bin/sh')
             os.execl(shell, shell)
 
-       
+        elif 'code' in query:
+            speak("opening vs code")
+            print("opening vs code")
+            cmd = 'code .'
+            os.system(cmd)
+            shell = os.environ.get('SHELL', '/bin/sh')
+            os.execl(shell, shell)
+
+        elif 'discord' in query:
+            speak("opening discord")
+            print("opening discord")
+            cmd = 'discord'
+            os.system(cmd)
+            shell = os.environ.get('SHELL', '/bin/sh')
+            os.execl(shell, shell)
+
+
+
 
